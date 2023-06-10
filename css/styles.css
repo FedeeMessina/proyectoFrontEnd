@@ -8,7 +8,9 @@
 html {
   font-size: 62.5%;
   background-color: #b5838d;
+  background-color: #b5838d;
 }
+
 
 header a {
   text-decoration: none;
@@ -25,7 +27,7 @@ header {
  
 }
 .common-header {
-  /*   background-color: #b5838d; */
+    background-color: #b5838d;
   width: 100%;
   display: inline-block;
 }
@@ -36,9 +38,9 @@ header {
 
 .logo {
   align-items: left;
-  max-width: 200px;
-  max-height: 180px;
-  margin: 25px 0px 0px 25px;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 0px;
   padding-bottom: 0px;
   display: inline;
 }
@@ -115,7 +117,8 @@ p {
   margin-bottom: 30px;
 }
 .dondeEncontrarnos {
-  margin: 20px 400px;
+  margin: auto;
+  width:50%;
 }
 
 footer {
@@ -126,8 +129,8 @@ footer {
 
 .logo-footer {
   align-items: left;
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 300px;
+  max-height: 200px;
   margin: 100px 0px 0px 50px;
   display: inline;
 }
