@@ -9,7 +9,7 @@ html {
   font-size: 62.5%;
   background-color: #b5838d;
 }
-.container-fluid{
+.container-fluid {
   margin: 0px;
   padding: 0px;
 }
@@ -49,7 +49,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 .titulo {
   width: 100%;
@@ -60,13 +59,6 @@ main {
   background-color: #6d6875;
 }
 
-.tituloRecetas {
-  text-align: center;
-  font-weight: normal;
-  font-size: 12rem;
-  color: white;
-  background-color: #6d6875;
-}
 #buscador {
   border: rgb(40, 55, 122) groove 3px;
   border-radius: 7px;
@@ -103,7 +95,6 @@ p {
   margin-bottom: 35px;
 }
 
-
 .tituloUbicacion {
   text-align: center;
   font-size: 3rem;
@@ -119,42 +110,41 @@ iframe {
 footer {
   background-color: #6d6875;
   width: 100%;
- }
+}
 footer .container {
   width: 100%;
   max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-/*   grid-template-areas: 
+  /*   grid-template-areas: 
   "loguito derechos telefono"; */
   grid-gap: 20px;
-
 }
 .loguito {
   display: grid;
   justify-items: start;
 }
-.logo-footer{
+.logo-footer {
   display: grid;
   max-width: 400px;
   max-height: 200px;
   justify-items: start;
   align-items: center;
-  }
+}
 
-.derechos{
+.derechos {
   display: grid;
   justify-items: center;
   align-items: end;
 }
 
-.telefono{
+.telefono {
   display: grid;
   justify-items: center;
-  align-items:center;
+  align-items: center;
 }
 
-.telefono a{
+.telefono a {
   text-decoration: none;
   color: white;
   text-align: right;
@@ -162,34 +152,16 @@ footer .container {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* .logo-footer {
-  align-items: left;
-  max-width: 300px;
-  max-height: 200px;
-  margin: 100px 0px 0px 50px;
-
-} 
-
-.texto-footer {
-  text-align: center;
-  font-size: 2rem;
-  color: white;
-}
-
-.datos-footer {
-  text-align: right;
-  padding: 0px 5px 15px;
-}
-.datos-footer a {
-  text-decoration: none;
-  color: white;
-  text-align: right;
-  font-size: 2rem;
-  margin: 5px;
-}*/
-
 
 /* PAGINA RECETAS */
+.tituloRecetas {
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 12rem;
+  color: white;
+  background-color: #6d6875;
+}
 .recetas {
   display: flex;
   justify-content: start;

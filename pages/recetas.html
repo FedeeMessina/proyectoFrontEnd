@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
@@ -12,143 +13,180 @@
     <link href="https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=search" />
     <link
       rel="shortcut icon"
-      href="images/deabocadologo.jpg"
+      href="../images/deabocadologo.jpg"
       type="image/x-icon"
     />
     <title>Recetas</title>
   </head>
+
   <body>
-    <header class="common-header">
-      <section class="header-left">
-        <img
-          class="logo"
-          src="../images/deabocadologo.jpg"
-          alt="logodeabocado"
-        />
-      </section>
-      <section class="header-center-top">
-        <nav class="navbar">
-          <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="recetas.html">Recetas</a></li>
-            <li><a href="../pages/registro.html">Registro</a></li>
-            <li><a href="../pages/sesion.html">Sesion</a></li>
-            <li><a href="../pages/contacto.html">Contacto</a></li>
-          </ul>
+    <div class="container-fluid">
+      <header>
+        <!-- NAV BAR CON BOOTSTRAP -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+              <img
+                class="logo"
+                src="../images/logodeabocado.png"
+                alt="logodeabocado"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="recetas.html">Recetas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/registro.html">Registro</a>
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/sesion.html">Sesion</a>
+                </li>
+                <li class="nav-item"></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-      </section>
-      <!-- <section class="header-right">
-        <a href="pages/sesion.html" class="botonsesion"><i class="far fa-sign-in"></i></a>
-      </section> -->
-    </header>
-    <main>
-      <h1 class="tituloRecetas">Recetas</h1>
+      </header>
+      <main>
+        <h1 class="tituloRecetas">Recetas</h1>
 
-      <section class="recetas">
-        <img class="fotoRecetas" src="../images/lemonpie.jpg" alt="lemonpie" />
-        <div>
-          <h2>LEMON PIE:</h2>
-          <p class="descripcionReceta">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            velit laborum praesentium a repellat odio nihil aperiam similique
-            quod odit nulla, reprehenderit, itaque accusantium deleniti animi
-            vitae, corrupti qui quis. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Temporibus dolores dolor quas quasi sint, dolorum,
-            autem quos cupiditate enim aliquam aliquid illo quo eum. Quasi
-            itaque quisquam vero excepturi architecto. Praesentium provident a
-            quis laboriosam architecto obcaecati aspernatur blanditiis modi
-            veritatis asperiores, debitis eum totam sapiente officia et? Rerum,
-            dolor inventore. Vero odio quos non enim dicta nihil necessitatibus
-            debitis?
-          </p>
-        </div>
-      </section>
+        <section class="recetas">
+          <img
+            class="fotoRecetas"
+            src="../images/lemonpie.jpg"
+            alt="lemonpie"
+          />
+          <div>
+            <h2>LEMON PIE:</h2>
+            <p class="descripcionReceta">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              velit laborum praesentium a repellat odio nihil aperiam similique
+              quod odit nulla, reprehenderit, itaque accusantium deleniti animi
+              vitae, corrupti qui quis. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Temporibus dolores dolor quas quasi sint,
+              dolorum, autem quos cupiditate enim aliquam aliquid illo quo eum.
+              Quasi itaque quisquam vero excepturi architecto. Praesentium
+              provident a quis laboriosam architecto obcaecati aspernatur
+              blanditiis modi veritatis asperiores, debitis eum totam sapiente
+              officia et? Rerum, dolor inventore. Vero odio quos non enim dicta
+              nihil necessitatibus debitis?
+            </p>
+          </div>
+        </section>
 
-      <section class="recetas">
-        <img
-          class="fotoRecetas"
-          src="../images/cheesecakeoreo.jpg"
-          alt="cheesecakeoreo"
-        />
-        <div>
-          <h2>CHEESECAKE DE OREO:</h2>
-          <p class="descripcionReceta">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            velit laborum praesentium a repellat odio nihil aperiam similique
-            quod odit nulla, reprehenderit, itaque accusantium deleniti animi
-            vitae, corrupti qui quis. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Temporibus dolores dolor quas quasi sint, dolorum,
-            autem quos cupiditate enim aliquam aliquid illo quo eum. Quasi
-            itaque quisquam vero excepturi architecto. Praesentium provident a
-            quis laboriosam architecto obcaecati aspernatur blanditiis modi
-            veritatis asperiores, debitis eum totam sapiente officia et? Rerum,
-            dolor inventore. Vero odio quos non enim dicta nihil necessitatibus
-            debitis?
-          </p>
-        </div>
-      </section>
+        <section class="recetas">
+          <img
+            class="fotoRecetas"
+            src="../images/cheesecakeoreo.jpg"
+            alt="cheesecakeoreo"
+          />
+          <div>
+            <h2>CHEESECAKE DE OREO:</h2>
+            <p class="descripcionReceta">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              velit laborum praesentium a repellat odio nihil aperiam similique
+              quod odit nulla, reprehenderit, itaque accusantium deleniti animi
+              vitae, corrupti qui quis. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Temporibus dolores dolor quas quasi sint,
+              dolorum, autem quos cupiditate enim aliquam aliquid illo quo eum.
+              Quasi itaque quisquam vero excepturi architecto. Praesentium
+              provident a quis laboriosam architecto obcaecati aspernatur
+              blanditiis modi veritatis asperiores, debitis eum totam sapiente
+              officia et? Rerum, dolor inventore. Vero odio quos non enim dicta
+              nihil necessitatibus debitis?
+            </p>
+          </div>
+        </section>
 
-      <section class="recetas">
-        <img
-          class="fotoRecetas"
-          src="../images/tortamoussechocolate.jpg"
-          alt="tortamoussechocolate"
-        />
-        <div>
-          <h2>TORTA MOUSSE DE CHOCOLATE:</h2>
-          <p class="descripcionReceta">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            velit laborum praesentium a repellat odio nihil aperiam similique
-            quod odit nulla, reprehenderit, itaque accusantium deleniti animi
-            vitae, corrupti qui quis. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Temporibus dolores dolor quas quasi sint, dolorum,
-            autem quos cupiditate enim aliquam aliquid illo quo eum. Quasi
-            itaque quisquam vero excepturi architecto. Praesentium provident a
-            quis laboriosam architecto obcaecati aspernatur blanditiis modi
-            veritatis asperiores, debitis eum totam sapiente officia et? Rerum,
-            dolor inventore. Vero odio quos non enim dicta nihil necessitatibus
-            debitis?
-          </p>
-        </div>
-      </section>
+        <section class="recetas">
+          <img
+            class="fotoRecetas"
+            src="../images/tortamoussechocolate.jpg"
+            alt="tortamoussechocolate"
+          />
+          <div>
+            <h2>TORTA MOUSSE DE CHOCOLATE:</h2>
+            <p class="descripcionReceta">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              velit laborum praesentium a repellat odio nihil aperiam similique
+              quod odit nulla, reprehenderit, itaque accusantium deleniti animi
+              vitae, corrupti qui quis. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Temporibus dolores dolor quas quasi sint,
+              dolorum, autem quos cupiditate enim aliquam aliquid illo quo eum.
+              Quasi itaque quisquam vero excepturi architecto. Praesentium
+              provident a quis laboriosam architecto obcaecati aspernatur
+              blanditiis modi veritatis asperiores, debitis eum totam sapiente
+              officia et? Rerum, dolor inventore. Vero odio quos non enim dicta
+              nihil necessitatibus debitis?
+            </p>
+          </div>
+        </section>
 
-      <section class="recetas">
-        <img
-          class="fotoRecetas"
-          src="../images/cheesecakefrutosrojos.jpg"
-          alt="cheesecakefrutosrojos"
-        />
-        <div>
-          <h2>CHEESECAKE FRUTOS ROJOS:</h2>
-          <p class="descripcionReceta">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            velit laborum praesentium a repellat odio nihil aperiam similique
-            quod odit nulla, reprehenderit, itaque accusantium deleniti animi
-            vitae, corrupti qui quis. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Temporibus dolores dolor quas quasi sint, dolorum,
-            autem quos cupiditate enim aliquam aliquid illo quo eum. Quasi
-            itaque quisquam vero excepturi architecto. Praesentium provident a
-            quis laboriosam architecto obcaecati aspernatur blanditiis modi
-            veritatis asperiores, debitis eum totam sapiente officia et? Rerum,
-            dolor inventore. Vero odio quos non enim dicta nihil necessitatibus
-            debitis?
-          </p>
+        <section class="recetas">
+          <img
+            class="fotoRecetas"
+            src="../images/cheesecakefrutosrojos.jpg"
+            alt="cheesecakefrutosrojos"
+          />
+          <div>
+            <h2>CHEESECAKE FRUTOS ROJOS:</h2>
+            <p class="descripcionReceta">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              velit laborum praesentium a repellat odio nihil aperiam similique
+              quod odit nulla, reprehenderit, itaque accusantium deleniti animi
+              vitae, corrupti qui quis. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Temporibus dolores dolor quas quasi sint,
+              dolorum, autem quos cupiditate enim aliquam aliquid illo quo eum.
+              Quasi itaque quisquam vero excepturi architecto. Praesentium
+              provident a quis laboriosam architecto obcaecati aspernatur
+              blanditiis modi veritatis asperiores, debitis eum totam sapiente
+              officia et? Rerum, dolor inventore. Vero odio quos non enim dicta
+              nihil necessitatibus debitis?
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="loguito">
+            <img
+              class="logo-footer"
+              src="../images/logodeabocado.png"
+              alt="logodeabocado"
+            />
+          </div>
+          <div class="derechos">
+            <h2>Todos los derechos reservados ©</h2>
+          </div>
+          <div class="telefono">
+            <a href="#">Calle Falsa 123</a>
+            <a href="#">Telefono: 12345678</a>
+          </div>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div>
-        <img
-          class="logo-footer"
-          src="../images/deabocadologo.jpg"
-          alt="logodeabocado"
-        />
-      </div>
-      <div class="texto-footer">Todos los derechos reservados</div>
-      <ul class="datos-footer">
-        <a href="#">Calle Falsa 123</a>
-        <a href="#">Telefono: 12345678</a>
-      </ul>
-    </footer>
+      </footer>
+      <script src="../js/bootstrap.min.js"></script>
+    </div>
   </body>
 </html>
