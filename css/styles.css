@@ -8,60 +8,47 @@
 html {
   font-size: 62.5%;
   background-color: #b5838d;
-  background-color: #b5838d;
 }
 
-
-header a {
-  text-decoration: none;
-  color: blueviolet;
-}
-
+/* HEADER */
 header {
   text-decoration: none;
+  width: 100%;
+}
+
+.navbar {
+  font-size: 3rem;
   background-image: url(../images/fondoheader.jpg);
-  width: 100%;
-  height: 30rem;
-  background-repeat: repeat;
- background-position: center;
- 
+  height: 20rem;
 }
-.common-header {
-    background-color: #b5838d;
-  width: 100%;
-  display: inline-block;
-}
-
-.header-left {
-  display: inline;
-}
-
 .logo {
   align-items: left;
   max-width: 400px;
   max-height: 400px;
   margin: 0px;
   padding-bottom: 0px;
-  display: inline;
 }
 
-.header-center-top {
-  text-align: center;
-  display: inline;
+.navbar a {
+  text-decoration: none;
+  color: blueviolet;
 }
-
-.navbar {
-  font-size: 3rem;
-}
-
 .navbar ul li {
-  display: inline-block;
   margin: 10px;
   font-weight: bold;
-  color: white;
 }
 
+/*  MAIN  */
+main {
+  background-color: #b5838d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
 .titulo {
+  width: 100%;
   text-align: center;
   font-weight: normal;
   font-size: 12rem;
@@ -69,7 +56,7 @@ header {
   background-color: #6d6875;
 }
 
-.tituloRecetas{
+.tituloRecetas {
   text-align: center;
   font-weight: normal;
   font-size: 12rem;
@@ -77,12 +64,14 @@ header {
   background-color: #6d6875;
 }
 #buscador {
-  border: black 50px;
-  border-radius: 50px;
+  border: rgb(40, 55, 122) groove 3px;
+  border-radius: 7px;
   text-align: center;
-  align-items: center;
-  margin: 25px 400px;
-  width: 55rem;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50rem;
+  height: 25px;
 }
 
 p {
@@ -92,39 +81,39 @@ p {
 .tituloQuienesSomos {
   text-align: center;
   font-size: 3rem;
+  margin-bottom: 15px;
 }
 .quienesSomos {
   font-size: 1.5rem;
-  border: black 50px;
+  border: black solid 1px;
   border-radius: 5px;
-  margin: 25px 325px;
+  justify-content: center;
+  align-items: center;
   background-color: #ffcdb2;
   width: 700px;
   height: 300px;
   color: #5e548e;
   text-align: center;
-  align-items: center;
+  padding: 10px;
   overflow: auto;
 }
 
-.videoNosotros {
-  margin: 25px 400px;
-}
 
 .tituloUbicacion {
   text-align: center;
   font-size: 3rem;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 .dondeEncontrarnos {
-  margin: auto;
-  width:50%;
+  align-items: center;
+  justify-content: center;
 }
-
+/* FOOTER */
 footer {
   background-color: #6d6875;
   width: 100%;
-  height: 30rem;
+  height: 20rem;
 }
 
 .logo-footer {
@@ -152,19 +141,12 @@ footer {
   font-size: 2rem;
   margin: 5px;
 }
-/* .tituloRecetas {
-  text-align: center;
-  font-size: 4rem;
-  color: white;
-  margin: 30px;
-} */
-
+/* PAGINA RECETAS */
 .recetas {
   display: flex;
   justify-content: start;
   margin: 60px;
   margin-left: 60px;
-
 }
 .fotoRecetas {
   max-width: 200px;
@@ -178,80 +160,80 @@ footer {
   max-width: 400px;
   border-radius: 5px;
 }
-
+/* PAGINA SESION */
 .formularioInicioSesion {
-    width: 600px;
-    height: 400px;
-    background-color: #5e548e;
-    margin:auto;
-    margin-top:50px;
-    margin-bottom: 30px;
-    padding:45px;
-    border: 5px solid #9f86c0;
-    border-radius: 5px;
+  width: 600px;
+  height: 400px;
+  background-color: #5e548e;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 45px;
+  border: 5px solid #9f86c0;
+  border-radius: 5px;
 }
 
-.tituloInicioSesion{
-    font-size:3rem;
-    text-align: center;
-    padding:10px;
-}
-.labelsInicioSesion{
-    text-align: center;
-    margin: auto;
-    padding:5px;
-}
-.rellenoFormulario{
-    font-size: 1.5rem;
-    width: 100%;
-    border: 1.5px solid #9f86c0;
-    padding: 5px;
-    margin:auto;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    border-radius: 3px;
-}
-
-.botonFormulario{
-    width: 102%;
-    background-color: #ffc300;
-    font-size: 1.5rem;
-    border: 1.5px solid #9f86c0;
-    padding: 5px;
-    margin-top: 20px;
-    border-radius: 3px;
-}
-
-.formularioRegistro{
-    width: 600px;
-    height: 400px;
-    background-color: #5e548e;
-    margin:auto;
-    margin-top:50px;
-    margin-bottom: 30px;
-    padding:45px;
-    border: 5px solid #9f86c0;
-    border-radius: 5px;
-}
-.tituloRegistro{
-    font-size:3rem;
-    text-align: center;
-    padding:10px;
-}
-
-.tituloComentarios{
-  font-size:3rem;
+.tituloInicioSesion {
+  font-size: 3rem;
   text-align: center;
-  padding:10px;
+  padding: 10px;
 }
-.comentariosUsuario{
+.labelsInicioSesion {
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+.rellenoFormulario {
+  font-size: 1.5rem;
+  width: 100%;
+  border: 1.5px solid #9f86c0;
+  padding: 5px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.botonFormulario {
+  width: 102%;
+  background-color: #ffc300;
+  font-size: 1.5rem;
+  border: 1.5px solid #9f86c0;
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+.formularioRegistro {
+  width: 600px;
+  height: 400px;
+  background-color: #5e548e;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 45px;
+  border: 5px solid #9f86c0;
+  border-radius: 5px;
+}
+.tituloRegistro {
+  font-size: 3rem;
+  text-align: center;
+  padding: 10px;
+}
+
+.tituloComentarios {
+  font-size: 3rem;
+  text-align: center;
+  padding: 10px;
+}
+.comentariosUsuario {
   width: 98%;
   border: 1.5px solid #9f86c0;
   border-radius: 5px;
   font-size: 16px;
   padding: 10px;
 }
-.botonEnviar{
+.botonEnviar {
   width: 35%;
   background-color: #ffc300;
   font-size: 1.5rem;
@@ -270,5 +252,4 @@ footer {
   margin-top: 20px;
   border-radius: 3px;
   margin-right: 10px;
-
 }
