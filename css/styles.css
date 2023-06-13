@@ -227,7 +227,7 @@ footer .container {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 30px;
-  padding: 45px;
+  padding: 0px 45px;
   border: 5px solid #9f86c0;
   border-radius: 5px;
 }
@@ -236,18 +236,40 @@ footer .container {
   text-align: center;
   padding: 10px;
 }
-
-.tituloComentarios {
-  font-size: 3rem;
-  text-align: center;
-  padding: 10px;
+.formularioContacto {
+  width: 600px;
+  height: 500px;
+  background-color: #5e548e;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 25px 45px;
+  border: 5px solid #9f86c0;
+  border-radius: 5px;
 }
+.tituloComentarios {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.rellenoFormularioContacto {
+  font-size: 1rem;
+  width: 98%;
+  border: 1.5px solid #9f86c0;
+  padding: 5px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
 .comentariosUsuario {
   width: 98%;
   border: 1.5px solid #9f86c0;
   border-radius: 5px;
-  font-size: 16px;
-  padding: 10px;
+  font-size: 15px;
+  padding: 0px 10px;
 }
 .botonEnviar {
   width: 35%;
@@ -462,23 +484,23 @@ footer .container {
   }
 
   /* PAGINA RECETAS MOBILE */
-.tituloRecetas{
-  font-size: 32px;
-}
-.mainRecetas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .tituloRecetas {
+    font-size: 32px;
+  }
+  .mainRecetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.recetas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 30px;
-}
-.recetas .fotorecetas {
-  margin-bottom: 10px;
-}
+  .recetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .recetas .fotorecetas {
+    margin-bottom: 10px;
+  }
 }
