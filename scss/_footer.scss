@@ -1,0 +1,41 @@
+/*  FOOTER */
+footer {
+    background-color: #6d6875;
+    width: 100%;
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+      .loguito {
+        display: grid;
+        justify-items: start;
+        .logo-footer {
+          display: grid;
+          max-width: 400px;
+          max-height: 200px;
+          justify-items: start;
+          align-items: center;
+        }
+      }
+      .derechos {
+        display: grid;
+        justify-items: center;
+        align-items: end;
+      }
+      .telefono {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        a {
+          text-decoration: none;
+          color: white;
+          text-align: right;
+          font-size: 2rem;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }

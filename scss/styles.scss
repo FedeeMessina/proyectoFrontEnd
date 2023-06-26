@@ -1,0 +1,95 @@
+@import "variables";
+@import "header";
+@import "footer";
+@import "recetas";
+@import "sesion";
+@import "registro";
+@import "contacto";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $fuentePrincipal;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: $colorPrincipal;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* MAIN */
+main {
+  background-color: $colorPrincipal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .titulo {
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12rem;
+    color: white;
+    background-color: $colorSecundario;
+  }
+
+  #buscador {
+    border: rgb(40, 55, 122) groove 3px;
+    border-radius: 7px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50rem;
+    height: 25px;
+  }
+
+  p {
+    font-style: italic;
+  }
+
+  .tituloQuienesSomos {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+
+  .quienesSomos {
+    font-size: 1.5rem;
+    border: black solid 1px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcdb2;
+    width: 700px;
+    height: 300px;
+    color: #5e548e;
+    text-align: center;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 35px;
+  }
+
+  .tituloUbicacion {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  iframe {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+}
+
+
+
+

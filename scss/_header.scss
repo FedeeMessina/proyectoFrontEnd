@@ -1,0 +1,29 @@
+/*  HEADER */
+header {
+    text-decoration: none;
+    width: 100%;
+  
+    .navbar {
+      font-size: 3rem;
+      background-image: url(../images/fondoheader.jpg);
+      height: 20rem;
+  
+      .logo {
+        align-items: left;
+        max-width: 400px;
+        max-height: 400px;
+        margin: 0px;
+        padding-bottom: 0px;
+      }
+  
+      a {
+        text-decoration: none;
+        color: blueviolet;
+      }
+  
+      ul li {
+        margin: 10px;
+        font-weight: bold;
+      }
+    }
+  }

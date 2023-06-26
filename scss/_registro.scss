@@ -1,0 +1,36 @@
+/* PAGINA REGISTRO */
+.formularioRegistro {
+    width: 600px;
+    height: 400px;
+    background-color: #5e548e;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0px 45px;
+    border: 5px solid #9f86c0;
+    border-radius: 5px;
+    .tituloRegistro {
+      font-size: 3rem;
+      text-align: center;
+      padding: 10px;
+    }
+    .rellenoFormulario {
+      font-size: 1.5rem;
+      width: 100%;
+      border: 1.5px solid #9f86c0;
+      padding: 5px;
+      margin: auto;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+    }
+    .botonFormulario {
+      width: 102%;
+      background-color: #ffc300;
+      font-size: 1.5rem;
+      border: 1.5px solid #9f86c0;
+      padding: 5px;
+      margin-top: 20px;
+      border-radius: 3px;
+    }
+  }

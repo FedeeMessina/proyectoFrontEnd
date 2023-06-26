@@ -1,0 +1,29 @@
+/* PAGINA RECETAS */
+.mainRecetas {
+    .tituloRecetas {
+      width: 100%;
+      text-align: center;
+      font-weight: normal;
+      font-size: 12rem;
+      color: white;
+      background-color: #6d6875;
+    }
+    .recetas {
+      display: flex;
+      justify-content: start;
+      margin: 60px;
+      margin-left: 60px;
+      .fotoRecetas {
+        max-width: 200px;
+        margin: 0px 30px 30px;
+      }
+      .descripcionReceta {
+        margin-top: 10px;
+        text-align: left;
+        background-color: #ffcdb2;
+        max-width: 400px;
+        border-radius: 5px;
+      }
+    }
+  }
+  
