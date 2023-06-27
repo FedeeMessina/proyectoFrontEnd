@@ -90,6 +90,237 @@ main {
   }
 }
 
+/* RESOLUCION PARA TABLET */
+@media (max-width: 768px) {
+  /* HEADER PARA TABLET */
+  .navbar {
+    padding: 20px 0;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .logo {
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    left: -50px;
+  }
+  .navbar-toggler {
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    border: 2.5px solid black;
+  }
+  .navbar-toggler-icon {
+    margin: 0;
+    width: 30px;
+  }
 
+  .nav-link {
+    justify-content: start;
+  }
+  .navbar-collapse {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 200px;
+    z-index: 1;
+    background-color: #ffcdb2;
+    opacity: 70%;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
 
+  .navbar-collapse.show {
+    transform: translateX(0%);
+  }
 
+  /* MAIN PARA TABLET*/
+  main {
+    .titulo {
+      font-size: 32px;
+    }
+
+    .buscador {
+      margin-bottom: 15px;
+    }
+
+    .tituloQuienesSomos {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    .quienesSomos {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .videoNosotros {
+      margin-top: 15px;
+    }
+    .tituloUbicacion {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    .dondeEncontrarnos {
+      margin-bottom: 15px;
+    }
+  }
+  /* FOOTER PARA TABLET */
+  .footer {
+    padding: 20px 0;
+  }
+}
+
+/* RESOLUCION PARA MOBILE */
+@media (max-width: 500px) {
+  /* HEADER MOBILE */
+  header .navbar {
+    width: 100%;
+  }
+  .navbar-brand {
+    margin-right: 0;
+  }
+  .logo {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: -35px;
+  }
+  .navbar-toggler {
+    margin: 10px;
+  }
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    right: -80%;
+    width: 70%;
+    height: 80%;
+    padding: 0px 1px 1px 0px;
+    background-color: #ffcdb2;
+    opacity: 70%;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  .navbar-collapse.show {
+    transform: translateX(-100%);
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+  /* MAIN PARA MOBILE */
+  main {
+    .titulo,
+    .buscador {
+      text-align: center;
+      padding: 5px;
+    }
+
+    #buscador {
+      width: 25rem;
+    }
+
+    .tituloQuienesSomos {
+      text-align: center;
+    }
+
+    .quienesSomos {
+      display: flex;
+      font-size: 1.5rem;
+      border: black solid 1px;
+      border-radius: 5px;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffcdb2;
+      width: 80%;
+      text-align: center;
+      padding: 10px;
+      overflow: auto;
+      margin: auto;
+      margin-bottom: 35px;
+    }
+
+    .videoNosotros {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+    }
+    .videoNosotros iframe {
+      width: 80%;
+      height: auto;
+      margin: auto;
+    }
+
+    .tituloUbicacion {
+      text-align: center;
+    }
+
+    .dondeEncontrarnos iframe {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      height: auto;
+    }
+  }
+
+  /* FOOTER PARA MOBILE */
+
+  .loguito {
+    align-items: center;
+  }
+
+  .logo-footer {
+    width: 70px;
+    height: 60px;
+  }
+  .telefono a {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  /* PAGINA RECETAS MOBILE */
+
+  .mainRecetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .tituloRecetas {
+      font-size: 32px;
+    }
+
+    .recetas {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 30px;
+      .fotorecetas {
+      margin-bottom: 10px;
+    }
+    }
+  }
+  /* PAGINA REGISTRO MOBILE */
+  .formularioRegistro{
+    width: 300px;
+    height:450px;
+  }
+
+  /* PAGINA SESION MOBILE */
+  .formularioInicioSesion {
+    width:300px;
+}
+/* PAGINA CONTACTO MOBILE */
+.formularioContacto {
+    width: 300px;
+}
+}
