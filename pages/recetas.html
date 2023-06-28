@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -72,8 +73,9 @@
       <main class="mainRecetas">
         <h1 class="tituloRecetas">Recetas</h1>
 
-        <section class="recetas">
+        <section data-aos="fade-right" class="recetas">
           <img
+            
             class="fotoRecetas"
             src="../images/lemonpie.jpg"
             alt="lemonpie"
@@ -96,7 +98,7 @@
           </div>
         </section>
 
-        <section class="recetas">
+        <section data-aos="fade-right" class="recetas">
           <img
             class="fotoRecetas"
             src="../images/cheesecakeoreo.jpg"
@@ -120,7 +122,7 @@
           </div>
         </section>
 
-        <section class="recetas">
+        <section data-aos="fade-right" class="recetas">
           <img
             class="fotoRecetas"
             src="../images/tortamoussechocolate.jpg"
@@ -144,7 +146,7 @@
           </div>
         </section>
 
-        <section class="recetas">
+        <section data-aos="fade-right" class="recetas">
           <img
             class="fotoRecetas"
             src="../images/cheesecakefrutosrojos.jpg"
@@ -187,6 +189,13 @@
         </div>
       </footer>
       <script src="../js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+           duration: 650,
+           once: true
+         });
+     </script>
     </div>
   </body>
 </html>

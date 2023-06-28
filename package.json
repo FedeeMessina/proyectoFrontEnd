@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FedeeMessina/proyectoFrontEnd/issues"
   },
-  "homepage": "https://github.com/FedeeMessina/proyectoFrontEnd#readme"
+  "homepage": "https://github.com/FedeeMessina/proyectoFrontEnd#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
 }
