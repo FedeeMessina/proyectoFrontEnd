@@ -31,13 +31,7 @@
       border-radius: 3px;
     }
     .botonFormulario {
-      width: 102%;
-      background-color: #ffc300;
-      font-size: 1.5rem;
-      border: 1.5px solid #9f86c0;
-      padding: 5px;
-      margin-top: 20px;
-      border-radius: 3px;
+   @extend .botonForm
     }
   }
   

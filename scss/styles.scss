@@ -21,14 +21,17 @@ html {
   margin: 0px;
   padding: 0px;
 }
-
-/* MAIN */
-main {
-  background-color: $colorPrincipal;
+/* MIXIN */
+@mixin flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+/* MAIN */
+main {
+  background-color: $colorPrincipal;
+  @include flex;
 
   .titulo {
     width: 100%;
@@ -305,22 +308,22 @@ main {
       text-align: center;
       margin-bottom: 30px;
       .fotorecetas {
-      margin-bottom: 10px;
-    }
+        margin-bottom: 10px;
+      }
     }
   }
   /* PAGINA REGISTRO MOBILE */
-  .formularioRegistro{
+  .formularioRegistro {
     width: 300px;
-    height:450px;
+    height: 450px;
   }
 
   /* PAGINA SESION MOBILE */
   .formularioInicioSesion {
-    width:300px;
-}
-/* PAGINA CONTACTO MOBILE */
-.formularioContacto {
     width: 300px;
-}
+  }
+  /* PAGINA CONTACTO MOBILE */
+  .formularioContacto {
+    width: 300px;
+  }
 }

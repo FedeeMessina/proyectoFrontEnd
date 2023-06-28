@@ -26,6 +26,7 @@ header .navbar ul li {
 }
 
 /*  FOOTER */
+/* MIXIN */
 footer {
   background-color: #6d6875;
   width: 100%;
@@ -126,7 +127,8 @@ footer .container .telefono a {
   margin-bottom: 10px;
   border-radius: 3px;
 }
-.formularioInicioSesion .botonFormulario {
+/* PAGINA REGISTRO */
+.botonForm, .formularioRegistro .botonFormulario, .formularioInicioSesion .botonFormulario {
   width: 102%;
   background-color: #ffc300;
   font-size: 1.5rem;
@@ -136,7 +138,6 @@ footer .container .telefono a {
   border-radius: 3px;
 }
 
-/* PAGINA REGISTRO */
 .formularioRegistro {
   width: 600px;
   height: 400px;
@@ -163,8 +164,9 @@ footer .container .telefono a {
   margin-bottom: 10px;
   border-radius: 3px;
 }
-.formularioRegistro .botonFormulario {
-  width: 102%;
+/* PAGINA CONTACTO */
+.boton, .formularioContacto .botonBorrar, .formularioContacto .botonEnviar {
+  width: 35%;
   background-color: #ffc300;
   font-size: 1.5rem;
   border: 1.5px solid #9f86c0;
@@ -173,7 +175,6 @@ footer .container .telefono a {
   border-radius: 3px;
 }
 
-/* PAGINA CONTACTO */
 .formularioContacto {
   width: 600px;
   height: 500px;
@@ -207,23 +208,7 @@ footer .container .telefono a {
   font-size: 15px;
   padding: 0px 10px;
 }
-.formularioContacto .botonEnviar {
-  width: 35%;
-  background-color: #ffc300;
-  font-size: 1.5rem;
-  border: 1.5px solid #9f86c0;
-  padding: 5px;
-  margin-top: 20px;
-  border-radius: 3px;
-}
 .formularioContacto .botonBorrar {
-  width: 35%;
-  background-color: #ffc300;
-  font-size: 1.5rem;
-  border: 1.5px solid #9f86c0;
-  padding: 5px;
-  margin-top: 20px;
-  border-radius: 3px;
   margin-right: 10px;
 }
 
@@ -243,6 +228,7 @@ html {
   padding: 0px;
 }
 
+/* MIXIN */
 /* MAIN */
 main {
   background-color: #b5838d;
