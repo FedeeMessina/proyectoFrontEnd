@@ -64,7 +64,7 @@ main {
   }
 
   .quienesSomos {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     border: black solid 1px;
     border-radius: 5px;
     justify-content: center;
@@ -153,7 +153,7 @@ main {
       margin-bottom: 15px;
     }
     .quienesSomos {
-      font-size: 14px;
+      font-size: 18px;
       line-height: 1.5;
     }
     .videoNosotros {
@@ -237,7 +237,7 @@ main {
 
     .quienesSomos {
       display: flex;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       border: black solid 1px;
       border-radius: 5px;
       justify-content: center;
@@ -325,5 +325,28 @@ main {
   /* PAGINA CONTACTO MOBILE */
   .formularioContacto {
     width: 300px;
+  }
+}
+
+/* RESOLUCION MOBILE CHICO */
+
+@media (max-width: 320px) {
+  /* MAIN PARA MOBILE CHICO */
+  main {
+    .quienesSomos {
+      font-size: 10px;
+    }
+  }
+  /* RECETAS MOBILE CHICO */
+  .mainRecetas {
+    .recetas {
+      margin-top: 0px;
+      .fotorecetas{
+        margin-top: 0px;
+      }
+      .descripcionRecetas {
+        font-size: 8px;
+      }
+    }
   }
 }
