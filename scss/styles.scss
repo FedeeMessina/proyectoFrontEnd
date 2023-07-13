@@ -171,6 +171,10 @@ main {
   .footer {
     padding: 20px 0;
   }
+  /* MAIN CONTACTO PARA TABLET */
+  .contenedorContacto{
+    width: 90%;
+  }
 }
 
 /* RESOLUCION PARA MOBILE */
@@ -323,9 +327,15 @@ main {
     width: 300px;
   }
   /* PAGINA CONTACTO MOBILE */
+  .contenedorContacto{
+    flex-direction: column;
+    .lanaFundadora{
+      margin: 10px 0px;
+    }
   .formularioContacto {
-    width: 300px;
+    width: 90%;
   }
+}
 }
 
 /* RESOLUCION MOBILE CHICO */
@@ -349,4 +359,10 @@ main {
       }
     }
   }
+/* CONTACTO MOBILE CHICO */
+.contenedorContacto{.lanaFundadora{
+  width: 90%;
+  height: 375px;
+}
+}
 }

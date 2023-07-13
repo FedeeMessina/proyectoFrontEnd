@@ -380,6 +380,10 @@ main iframe {
   .footer {
     padding: 20px 0;
   }
+  /* MAIN CONTACTO PARA TABLET */
+  .contenedorContacto {
+    width: 90%;
+  }
 }
 /* RESOLUCION PARA MOBILE */
 @media (max-width: 500px) {
@@ -515,8 +519,14 @@ main iframe {
     width: 300px;
   }
   /* PAGINA CONTACTO MOBILE */
-  .formularioContacto {
-    width: 300px;
+  .contenedorContacto {
+    flex-direction: column;
+  }
+  .contenedorContacto .lanaFundadora {
+    margin: 10px 0px;
+  }
+  .contenedorContacto .formularioContacto {
+    width: 90%;
   }
 }
 /* RESOLUCION MOBILE CHICO */
@@ -534,6 +544,11 @@ main iframe {
   }
   .mainRecetas .recetas .descripcionRecetas {
     font-size: 8px;
+  }
+  /* CONTACTO MOBILE CHICO */
+  .contenedorContacto .lanaFundadora {
+    width: 90%;
+    height: 375px;
   }
 }
 
